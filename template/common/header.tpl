@@ -42,7 +42,7 @@ $actual_link = ''.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 		<?endif; ?>
 
 		<? if($icon): ?>
-			<link href="//www.smart.md/catalog/view/smartv3/img/favicon_smart-o.png" rel="icon"/>
+			<link href="/catalog/view/smartv3/img/favicon_smart-o.png" rel="icon"/>
 			<?endif; ?>
 
 			<? foreach ($links as $link): ?>
@@ -518,32 +518,32 @@ $(document).ready(function () {
 											<div class="title_sectio"><?php echo $direct_categorii; ?></div>
 										</li>
 										<li>
-											<a href="//www.smart.md/telefoane/smartphones"><?=$menu_smartphones_title?></a>
+											<a href="/telefoane/smartphones"><?=$menu_smartphones_title?></a>
 										</li>
 										<li>
-											<a href="//www.smart.md/mobila"><?=$menu_category_0?></a>
+											<a href="/mobila"><?=$menu_category_0?></a>
 										</li>
 										<li>
-											<a href="//www.smart.md/tv"><?=$menu_tv_title?>
+											<a href="/tv"><?=$menu_tv_title?>
 										</a>
 									</li>
 									<li>
-										<a href="//www.smart.md/ikea"><?=$menu_category_1?></a>
+										<a href="/ikea"><?=$menu_category_1?></a>
 									</li>
 									<li>
-										<a href="//www.smart.md/frigidere"><?=$menu_category_2?></a>
+										<a href="/frigidere"><?=$menu_category_2?></a>
 									</li>
 									<li>
-										<a href="//www.smart.md/aspiratoare"><?=$menu_category_3?></a>
+										<a href="/aspiratoare"><?=$menu_category_3?></a>
 									</li>
 									<li>
-										<a href="//www.smart.md/power-bank"><?=$menu_category_4?></a>
+										<a href="/power-bank"><?=$menu_category_4?></a>
 									</li>
 									<li>
-										<a href="//www.smart.md/masini-de-spalat-rufe"><?=$menu_category_5?></a>
+										<a href="/masini-de-spalat-rufe"><?=$menu_category_5?></a>
 									</li>
 									<li>
-										<a href="//www.smart.md/laptopuri/notebook"><?=$menu_notebook_title?>
+										<a href="/laptopuri/notebook"><?=$menu_notebook_title?>
 									</a>
 								</li>
 							</ul>
