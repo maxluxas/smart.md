@@ -318,7 +318,7 @@
 
   <?php if ($custom__banners) { ?>
     <a href="#" class="custom__banners_desk">
-        <img src="https://www.smart.md/image/data/results-photos/banners/visadecdesk.png">
+        <img src="/image/data/results-photos/banners/visadecdesk.png">
     </a>
 
     <a href="#" class="custom__banners_mob">
@@ -359,7 +359,7 @@
 
     <div class="col s12 m12 mai-ieftin mobile-ieftin">
       <a class="mai-ieftin_link __new_comanda_acum_mobile <?= $roistat_class; ?>" href="tel:079 002 751">
-      <img src="https://www.smart.md/image/data/call-calling2.png">
+      <img src="/image/data/call-calling2.png">
       <span>079002751</span></a>
     </div>
     <?php if($stock_status_id != '5') { ?>
@@ -379,7 +379,7 @@
     <aside id="banner_cta" class="__new_banner_cta">
       <div id="label" class="cta deskt">
         <a class="nr_telefon" onclick="new_open_cta_popup()" href="tel:079002751">
-          <img src="https://www.smart.md/image/data/call-calling2.png" />
+          <img src="/image/data/call-calling2.png" />
           <span class="track_number_desktop <?= $roistat_class; ?>">079002751</span>
         </a>
       </div>
@@ -1810,7 +1810,7 @@
 			<a >
 			  <img class="img_lazy_load" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="image/data/results-photos/banners/smart_8mar_<?php echo $lang; ?>.png" alt="" title="">
 			</a>
-			<!-- <a href="https://www.smart.md/ikea">
+			<!-- <a href="/ikea">
 			  <img class="img_lazy_load" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="catalog/view/smartv3/img/ikea_<?php echo $lang; ?>.jpg" alt="" title="">
 			</a> -->
 		</div>
@@ -1860,7 +1860,7 @@
 		<a class="aplica-tradeIn popup-caller mob_img_tradein" style="cursor:pointer;" >
           <img class="img_lazy_load" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="image/data/results-photos/banners/smart_8mar_<?php echo $lang; ?>.png" alt="" title="">
         </a>
-		<!-- <a class="aplica-tradeIn popup-caller mob_img_tradein" style="cursor:pointer;" href="https://www.smart.md/ikea">
+		<!-- <a class="aplica-tradeIn popup-caller mob_img_tradein" style="cursor:pointer;" href="/ikea">
           <img class="img_lazy_load" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="catalog/view/smartv3/img/ikea_<?php echo $lang; ?>.jpg" alt="" title="">
         </a> -->
 		</div>

@@ -31,9 +31,9 @@ window.ViselyResource = ViselyResource;
 <div itemscope itemtype="//schema.org/WebPage" id="content">
 	<div style="display: none;">
 		<span itemprop="name"><?php echo $heading_title; ?></span>
-		<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+		<ol itemscope itemtype="https://schema.org/BreadcrumbList">
 			<?php foreach ($breadcrumbs as $breadkey => $breadcrumb) { ?>
-			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 				<a itemprop="item" href="<?= $breadcrumb['href']; ?>">
 					<span itemprop="name"><?= $breadcrumb['text']; ?></span></a>
 				<meta itemprop="position" content="<?= $breadkey + 1; ?>" />
@@ -74,7 +74,7 @@ window.ViselyResource = ViselyResource;
 
   <?php if ($custom__banners) { ?>
     <a href="#" class="custom__banners_desk">
-        <img src="https://www.smart.md/image/data/results-photos/banners/visadecdesk.png">
+        <img src="/image/data/results-photos/banners/visadecdesk.png">
     </a>
 
     <a href="#" class="custom__banners_mob">
